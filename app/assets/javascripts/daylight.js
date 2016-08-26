@@ -1,4 +1,4 @@
-function changeColor(time) {
+function daylightColor(time) {
   if (time === "morning") {
     document.body.style.backgroundColor = "pink";
     document.getElementById("morning").innerHTML = "Morning";
