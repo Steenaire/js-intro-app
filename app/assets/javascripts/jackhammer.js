@@ -4,8 +4,8 @@ function jackhammer(element) {
   counter ++;
   element.style["background-color"] = changeColor();
   if (counter === 5) {
-    element.style["background-color"] = "white";
     alert("You won! What a great game!");
+    counter = 0;
   }
 }
 
