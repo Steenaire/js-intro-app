@@ -1,0 +1,12 @@
+<h1>Box Calculator</h1>
+
+<div id="numbers-game">
+  <div class="row">
+    <% (1..10).to_a.shuffle.each do |number| %>
+      <div class="box col-md-2" onclick="boxCalculator(<%= number %>)"><%= number %></div>
+      <div class="col-md-1"> </div>
+    <% end %>
+  </div>
+  <div id="result">Result</div>
+  
+</div>
