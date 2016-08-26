@@ -17,3 +17,13 @@ function changeColor() { //Generate a random hex code for a color
   }
   return color;
 }
+
+$('document').ready(function(){
+  
+  (function () {
+    document.getElementById("jackhammer").addEventListener("click", function() {
+      jackhammer(this);
+    });
+  })();
+
+});
