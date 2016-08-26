@@ -3,7 +3,13 @@
 <div id="box-game">
   <div class="row">
    
-    <div class="box col-md-3 " onclick="jackhammer(this)"> </div>
+    <div id="jackhammer" class="box col-md-3"> </div>
 
   </div>
 </div>
+
+<script type="text/javascript">
+  document.getElementById("jackhammer").addEventListener("click", function() {
+    jackhammer(this);
+  });
+</script>

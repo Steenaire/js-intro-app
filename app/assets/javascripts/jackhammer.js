@@ -9,7 +9,7 @@ function jackhammer(element) {
   }
 }
 
-function changeColor() {
+function changeColor() { //Generate a random hex code for a color
   var characters = '0123456789ABCDEF'.split('');
   var color = "#";
   for (var i=0; i<6; i++) {
